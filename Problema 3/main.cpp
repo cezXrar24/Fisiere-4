@@ -24,6 +24,6 @@ int main() {
         }
         x++;
     }
-    cout << cc << endl;
+    cout << endl;
     return 0;
 }
