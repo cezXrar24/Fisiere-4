@@ -26,7 +26,7 @@ int main() {
                     divCount++;
                 }
             }
-            if (divCount < 1)
+            if (divCount < 1 && x2 != 1)
             {
                 divCount = 0;
                 for(int div=2; div<=x3/2; div++)
@@ -36,7 +36,7 @@ int main() {
                         divCount++;
                     }
                 }
-                if (divCount < 1)
+                if (divCount < 1 && x3 != 1)
                 {
                     divCount = 0;
                     cout << x << " ";
